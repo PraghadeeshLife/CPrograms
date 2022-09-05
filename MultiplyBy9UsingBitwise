@@ -1,0 +1,17 @@
+/*  
+Program to multiply by 9 using Bitwise
+*/
+
+#include <stdio.h>
+#include <math.h>
+
+int multiplyByNine(int no)
+{
+    return (no << 3) + no;
+}
+
+int main()
+{
+  int x = 5;
+  printf("%d \n", multiplyByNine(20));
+}
